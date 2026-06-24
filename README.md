@@ -196,3 +196,7 @@ If I were to improve this, the single highest-impact change would be a manual an
 **Instance 3: Failure pattern analysis.** After running the evaluation in Section 4, I shared the 15 wrong predictions with Claude and asked it to identify common patterns. Claude identified the systematic news-to-opinion collapse and linked it to the source-based labeling strategy. I verified this by re-reading the misclassified examples and confirmed that the pattern held: most "news" errors were articles with editorial framing that happened to come from news-coded sources.
 
 **Annotation assistance disclosure:** No LLM pre-labeling of individual posts was used. Labels were assigned programmatically by source domain. The source-to-label mapping (tabloid = rumor, magazine = news, blog = opinion) was designed collaboratively with Claude and applied in the scraping script.
+
+## Demo Video
+
+https://www.loom.com/share/c67deab514974af6aa76466e6a2ed560
