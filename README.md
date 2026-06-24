@@ -163,13 +163,13 @@ True label: news. This is a confirmed statement from the subject herself. Howeve
 
 | Post (truncated) | True | Predicted | Confidence |
 |------------------|------|-----------|------------|
-| The Strokes Follow A Big Coachella Weekend By Announcing A 2026 World Tour... | opinion | opinion | 0.59 |
-| 'One Night Only': Everything To Know About Callum Turner And Monica Barbaro's Rom-Com... | opinion | opinion | 0.56 |
-| It's The Series Finale. I cannot believe that after all these years, my time with Dlisted... | opinion | opinion | 0.58 |
-| Nicki Minaj's $10 Million Legal Fight With Alleged 'Stalker' is Over... | rumor | rumor | 0.43 |
-| Jennifer Lopez: Mom with the hookups. Jennifer Lopez was one of so many celebrities... | opinion | opinion | 0.53 |
+| The Strokes Follow A Big Coachella Weekend By Announcing A 2026 World Tour... | opinion | opinion | 0.63 |
+| 'One Night Only': Everything To Know About Callum Turner And Monica Barbaro's Rom-Com... | opinion | opinion | 0.57 |
+| It's The Series Finale. I cannot believe that after all these years, my time with Dlisted... | opinion | opinion | 0.62 |
+| Nicki Minaj's $10 Million Legal Fight With Alleged 'Stalker' is Over... | rumor | rumor | 0.39 |
+| Jennifer Lopez: Mom with the hookups. Jennifer Lopez was one of so many celebrities... | opinion | opinion | 0.57 |
 
-**Correct prediction explained:** The Strokes tour announcement post was correctly labeled opinion (confidence 0.59). The post is written in an editorial voice typical of music commentary blogs, combining factual details (Coachella, 2026 world tour) with framing that signals authorial perspective ("a busy spring and summer" reads as commentary, not reporting). The model correctly associated this register with opinion. This is the kind of post where fine-tuning genuinely helped, since the baseline only achieved 0.24 recall on opinion.
+**Correct prediction explained:** The Strokes tour announcement post was correctly labeled opinion (confidence 0.63). The post is written in an editorial voice typical of music commentary blogs, combining factual details (Coachella, 2026 world tour) with framing that signals authorial perspective ("a busy spring and summer" reads as commentary, not reporting). The model correctly associated this register with opinion. This is the kind of post where fine-tuning genuinely helped, since the baseline only achieved 0.24 recall on opinion.
 
 ## Reflection: What the Model Learned vs. What Was Intended
 
